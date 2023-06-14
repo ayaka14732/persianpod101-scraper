@@ -31,7 +31,7 @@ seen = set()
 
 with open('data.csv', 'a', newline='', encoding='utf-8') as f:
     writer = csv.writer(f, delimiter=',', quotechar='"', lineterminator='\n', strict=True)
-    writer.writerow(('id_', 'text', 'english_text', 'url'))
+    writer.writerow(('id', 'text', 'english_text', 'url'))
     for lesson_url in course_urls:
         print(f'Scraping {lesson_url}...')
         response = session.get(lesson_url)
