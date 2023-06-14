@@ -22,14 +22,19 @@ To use the script, fulfill the requirements and follow the example as demonstrat
   ```sh
   pip install -r requirements.txt
   ```
-- Put your username and password in [`scraper.py`](scraper.py).
-- Run the script:
+- Put your username and password in [`scrape.py`](scrape.py).
+- Run the scraping script:
 
   ```sh
-  python scraper.py
+  python scrape.py
   ```
 
-The scraped file is already stored in [`data.csv`](data.csv).
+  The scraped file is already stored in [`data.csv`](data.csv).
+- Run the post-processing script:
+
+  ```sh
+  python postprocess.py
+  ```
 
 ## :clipboard: Disclaimer and known issues
 
