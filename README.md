@@ -36,6 +36,14 @@ To use the script, fulfill the requirements and follow the example as demonstrat
   python postprocess.py
   ```
 
+  The processed file is already stored in [`data-postprocessed.csv`](data-postprocessed.csv).
+  It contains 4 columns, namely `id`, `url`, `english_text`, and `texts`.
+  The texts are JSON lists that may contain 1 to 3 items.
+
+  - If a certain text contains 3 items, they would be the same Persian sentence in Arabic, Arabic with Tashkeel and Latin, respectively.
+  - If it contains 2 items, they would be in Arabic and Latin.
+  - If it contains 2 items, they would be in Arabic.
+
 ## :clipboard: Disclaimer and known issues
 
 - Any usage of the script is under the user's responsibility only. Users of the script must act according to the site's terms.
@@ -61,6 +69,6 @@ The license below refers only to the script and not to the downloaded content.
 Adapt to [persianpod101.com](https://www.persianpod101.com/).
 - **23.03.2022**:
 Added support for basic video downloading (nothing fancy, just m4v and mp4 files)
-Added error handling for when a lesson library/lesson contents URL is used instead of the first lesson (user is now warned)
+Added error handling for when a lesson library/lesson contents URL is used instead of the first lesson (user is now warned).
 - **11.05.2021**:
 Headers and waiting time added, script is alive again.
