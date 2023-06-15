@@ -43,6 +43,8 @@ To use the script, fulfill the requirements and follow the example as demonstrat
   - If a certain text contains 3 items, they would be the same Persian sentence in Arabic, Arabic with Tashkeel and Latin, respectively.
   - If it contains 2 items, they would be in Arabic and Latin.
   - If it contains 2 items, they would be in Arabic.
+- Create a directory `output`
+- Run `download.py` to download the files
 
 ## :clipboard: Disclaimer and known issues
 
